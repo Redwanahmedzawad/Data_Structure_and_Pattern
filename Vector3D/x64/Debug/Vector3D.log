@@ -1,0 +1,9 @@
+﻿  Matrix3x3.cpp
+  Vector3D.cpp
+D:\Projects\Data_Structure_and_Pattern\Vector3D\Vector3D.cpp(4,32): error C2572: 'Vector3D::Vector3D': redefinition of default argument: parameter 1
+D:\Projects\Data_Structure_and_Pattern\Vector3D\Vector3D.h(17,5): message : see declaration of 'Vector3D::Vector3D'
+D:\Projects\Data_Structure_and_Pattern\Vector3D\Vector3D.cpp(4,49): error C2572: 'Vector3D::Vector3D': redefinition of default argument: parameter 2
+D:\Projects\Data_Structure_and_Pattern\Vector3D\Vector3D.h(17,5): message : see declaration of 'Vector3D::Vector3D'
+D:\Projects\Data_Structure_and_Pattern\Vector3D\Vector3D.cpp(4,66): error C2572: 'Vector3D::Vector3D': redefinition of default argument: parameter 3
+D:\Projects\Data_Structure_and_Pattern\Vector3D\Vector3D.h(17,5): message : see declaration of 'Vector3D::Vector3D'
+  Generating Code...

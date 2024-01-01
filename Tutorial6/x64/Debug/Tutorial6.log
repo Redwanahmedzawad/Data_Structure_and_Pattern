@@ -1,0 +1,13 @@
+﻿  PassiveResistor.cpp
+D:\Projects\Data_Structure_and_Pattern\Tutorial6\PassiveResistor.cpp(53,23): error C2084: function 'bool PassiveResistor::mustScale(double) noexcept const' already has a body
+D:\Projects\Data_Structure_and_Pattern\Tutorial6\PassiveResistor.cpp(10,23): message : see previous definition of 'mustScale'
+D:\Projects\Data_Structure_and_Pattern\Tutorial6\PassiveResistor.cpp(59,31): error C2084: function 'const double PassiveResistor::getMultiplier(void) noexcept const' already has a body
+D:\Projects\Data_Structure_and_Pattern\Tutorial6\PassiveResistor.cpp(16,31): message : see previous definition of 'getMultiplier'
+D:\Projects\Data_Structure_and_Pattern\Tutorial6\PassiveResistor.cpp(65,31): error C2084: function 'const std::string PassiveResistor::getMajorUnit(void) noexcept const' already has a body
+D:\Projects\Data_Structure_and_Pattern\Tutorial6\PassiveResistor.cpp(22,31): message : see previous definition of 'getMajorUnit'
+D:\Projects\Data_Structure_and_Pattern\Tutorial6\PassiveResistor.cpp(71,31): error C2084: function 'const std::string PassiveResistor::getMinorUnits(void) noexcept const' already has a body
+D:\Projects\Data_Structure_and_Pattern\Tutorial6\PassiveResistor.cpp(28,31): message : see previous definition of 'getMinorUnits'
+D:\Projects\Data_Structure_and_Pattern\Tutorial6\PassiveResistor.cpp(77,18): error C2084: function 'PassiveResistor::PassiveResistor(double) noexcept' already has a body
+D:\Projects\Data_Structure_and_Pattern\Tutorial6\PassiveResistor.cpp(34,18): message : see previous definition of '{ctor}'
+D:\Projects\Data_Structure_and_Pattern\Tutorial6\PassiveResistor.cpp(82,25): error C2084: function 'double PassiveResistor::getReactance(double) noexcept const' already has a body
+D:\Projects\Data_Structure_and_Pattern\Tutorial6\PassiveResistor.cpp(39,25): message : see previous definition of 'getReactance'

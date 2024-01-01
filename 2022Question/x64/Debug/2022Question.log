@@ -1,0 +1,16 @@
+﻿  Main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\include\xmemory(782,20): error C2338: static_assert failed: 'The C++ Standard forbids containers of const elements because allocator<const T> is ill-formed.'
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\include\deque(577,1): message : see reference to class template instantiation 'std::allocator<TernaryTree<std::string> *const >' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\include\stack(28,1): message : see reference to class template instantiation 'std::deque<TernaryTree<std::string> *const ,std::allocator<TernaryTree<std::string> *const >>' being compiled
+D:\Projects\Data_Structure_and_Pattern\2022Question\TernaryTreePrefixIterator.h(12,1): message : see reference to class template instantiation 'std::stack<TernaryTree<std::string> *const ,std::deque<TernaryTree<std::string> *const ,std::allocator<TernaryTree<std::string> *const >>>' being compiled
+D:\Projects\Data_Structure_and_Pattern\2022Question\Main.cpp(362,5): message : see reference to class template instantiation 'TernaryTreePrefixIterator<T>' being compiled
+          with
+          [
+              T=std::string
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\include\xmemory(813,66): error C2535: '_Ty *std::allocator<_Ty>::address(_Ty &) noexcept const': member function already defined or declared
+          with
+          [
+              _Ty=TernaryTree<std::string> *const
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\include\xmemory(809,60): message : see declaration of 'std::allocator<TernaryTree<std::string> *const >::address'

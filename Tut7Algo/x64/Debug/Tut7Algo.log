@@ -1,0 +1,26 @@
+﻿  Main.cpp
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(19,16): error C2955: 'BaseSorter': use of class template requires template argument list
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\BaseSorter.h(11,1): message : see declaration of 'BaseSorter'
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(19,39): error C2514: 'BaseSorter': class template cannot be constructed
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\BaseSorter.h(11,1): message : see declaration of 'BaseSorter'
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(23,12): error C2662: 'void BaseSorter<T>::printStage(size_t) noexcept const': cannot convert 'this' pointer from 'BaseSorter' to 'const BaseSorter<T> &'
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(23,5): message : Reason: cannot convert from 'BaseSorter' to 'const BaseSorter<T>'
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(23,5): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\BaseSorter.h(55,7): message : see declaration of 'BaseSorter<T>::printStage'
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(23,12): message : while trying to match the argument list '()'
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(25,5): error C3848: expression having type 'BaseSorter' would lose some const-volatile qualifiers in order to call 'void BaseSorter<T>::operator ()<std::greater<_Ty>>(bool,C) noexcept'
+          with
+          [
+              C=std::greater<_Ty>
+          ]
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(25,5): message : while trying to match the argument list '()'
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(27,12): error C2662: 'void BaseSorter<T>::printStage(size_t) noexcept const': cannot convert 'this' pointer from 'BaseSorter' to 'const BaseSorter<T> &'
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(27,5): message : Reason: cannot convert from 'BaseSorter' to 'const BaseSorter<T>'
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(27,5): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\BaseSorter.h(55,7): message : see declaration of 'BaseSorter<T>::printStage'
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(27,12): message : while trying to match the argument list '()'
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(29,48): error C2662: 'size_t BaseSorter<T>::getSwapCount(void) noexcept const': cannot convert 'this' pointer from 'BaseSorter' to 'const BaseSorter<T> &'
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(29,41): message : Reason: cannot convert from 'BaseSorter' to 'const BaseSorter<T>'
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(29,41): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\BaseSorter.h(35,9): message : see declaration of 'BaseSorter<T>::getSwapCount'
+D:\Projects\Data_Structure_and_Pattern\Tut7Algo\Main.cpp(29,48): message : while trying to match the argument list '()'
